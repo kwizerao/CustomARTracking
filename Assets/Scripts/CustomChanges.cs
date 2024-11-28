@@ -16,6 +16,8 @@ public class CustomChanges : MonoBehaviour
     public GameObject currentObject;
     private MeshRenderer mr;
 
+    //void 
+
     private void Start()
     {
         ARInteractorSpawnTrigger.ObjectCreatedEvent.AddListener(Assignments);
